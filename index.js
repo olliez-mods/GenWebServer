@@ -10,7 +10,7 @@ const PORT = 3009;
 
 app.use(express.static("public"));
 
-io.on("connection", (sock) => {
+io.on("connection", (socket) => {
 
 });
 
